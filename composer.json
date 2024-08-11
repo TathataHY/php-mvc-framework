@@ -1,0 +1,18 @@
+{
+  "name": "tathata/php-mvc-framework",
+  "autoload": {
+    "psr-4": {
+      "Tathata\\PhpMvcFramework\\": "src/",
+      "app\\": "./"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tathata",
+      "email": "andre.yovera1@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
+  }
+}
